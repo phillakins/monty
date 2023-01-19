@@ -97,3 +97,16 @@ void free_dlistint(stack_t *head)
 		head = tmp;
 	}
 }
+
+/**
+ * f_stack - prints the top
+ * @head: stack head
+ * @counter: line_number
+ * Return: no return
+*/
+void f_stack(stack_t **head, unsigned int counter)
+{
+	(void)head;
+	(void)counter;
+	bus.lifi = 0;
+}
